@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vicknesh Bhuvanesweran · AI Portfolio</title>
+  <meta name="description" content="AI automation and evaluation projects grounded in warehousing and logistics.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero wrap">
+    <p class="tag mono">PORTFOLIO / <span id="year"></span></p>
+    <h1 id="name"></h1>
+    <p class="role mono" id="role"></p>
+    <p class="pitch" id="pitch"></p>
+    <nav class="actions" id="actions" aria-label="Profiles"></nav>
+  </header>
+
+  <main class="wrap">
+    <section aria-labelledby="work-h">
+      <h2 id="work-h" class="section-h mono">// Work</h2>
+      <div class="grid" id="projects"></div>
+    </section>
+
+    <section aria-labelledby="skills-h">
+      <h2 id="skills-h" class="section-h mono">// What job ads ask for → where I've shown it</h2>
+      <table class="skills">
+        <thead><tr><th scope="col">Employers ask for</th><th scope="col">Shown in</th></tr></thead>
+        <tbody id="skills"></tbody>
+      </table>
+    </section>
+
+    <section aria-labelledby="about-h" class="about">
+      <h2 id="about-h" class="section-h mono">// About</h2>
+      <p>Second-in-charge in operations, with a background in warehousing and pharmaceutical distribution.
+        Certificate IV in Game Design and Development (Holmesglen). I build with AI every day, and my
+        operations background means I can tell when its answer would cause a problem on the warehouse floor.</p>
+    </section>
+  </main>
+
+  <footer class="wrap mono">Built by hand with HTML and CSS. No tracking.</footer>
+
+  <script src="projects.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
