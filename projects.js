@@ -58,6 +58,20 @@ window.PROJECTS = [
     detail: "",
     links: { code: "https://github.com/VickneshHolmesglen/TDEF" },
   },
+  {
+    id: "P-05",
+    title: "Game Design Checker",
+    status: "live",
+    pitch:
+      "Reads a game's design documents, pulls out checkable rules, and checks each one against the game's code and data, citing both sides.",
+    shows: ["AI evaluation", "RAG", "Checking AI output by hand"],
+    detail:
+      "Run on Sanctuary Defenders (P-04): 68 claims. It found one real out-of-date spec and raised one false alarm. I checked 33 verdicts against the source by hand: 25 were right.",
+    links: {
+      demo: "design-audit/",
+      code: "https://github.com/VickneshHolmesglen/AIJP",
+    },
+  },
 ];
 
 // "Employers ask for X -> here is where I've shown it." Taken from current
@@ -66,7 +80,7 @@ window.SKILLS = [
   ["Clear writing and careful judgement", "P-01"],
   ["Hands-on use of AI tools (Claude, ChatGPT, Copilot)", "P-01, P-02, P-04"],
   ["Spotting inefficiencies in everyday workflows", "P-02"],
-  ["Build, test and refine until reliable", "P-02, P-03"],
-  ["Domain expertise to judge AI output", "P-01 (logistics, pharma distribution)"],
-  ["Evaluation / quality review", "P-01, P-03"],
+  ["Build, test and refine until reliable", "P-02, P-03, P-05"],
+  ["Domain expertise to judge AI output", "P-01 (logistics, pharma distribution), P-05"],
+  ["Evaluation / quality review", "P-01, P-03, P-05"],
 ];
